@@ -19,6 +19,9 @@ $ docker-compose up
 ```shell script
 $ ./gradlew quarkusDev
 ```
-
+And [browse](http://localhost:8080) to:
+```
+http://localhost:8080
+```
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
 

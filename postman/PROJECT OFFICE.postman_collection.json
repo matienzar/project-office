@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "ee817ede-265c-438a-bd76-75cbbc1190a4",
+		"name": "PROJECT OFFICE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "JIRA-INSTANCE",
+			"item": [
+				{
+					"name": "INIT",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				},
+				{
+					"name": "FIND ACTIVE",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{SERVER}}/jira-instance/find-active",
+							"host": [
+								"{{SERVER}}"
+							],
+							"path": [
+								"jira-instance",
+								"find-active"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "SERVER",
+			"value": "localhost:8080",
+			"type": "string"
+		}
+	]
+}

@@ -19,3 +19,7 @@ View logs
 ```shell script
 $ docker logs docker-image-name
 ```
+Access [web console](http://localhost:8081)
+```
+http://localhost:8081
+```
