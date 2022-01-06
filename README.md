@@ -11,12 +11,13 @@ The development of this product seeks to have a project office through the use o
 - [Provided code](docs/PROVIDEDCODE.md)
 
 ## Running the application in dev mode
-1. Start docker. See [Docker](docs/DOCKER.md)
-2. Run the application 
-
-You can run your application in dev mode that enables live coding using:
+1. Start docker
 ```shell script
-./gradlew quarkusDev
+$ docker-compose up
+```
+2. Run the application 
+```shell script
+$ ./gradlew quarkusDev
 ```
 
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
